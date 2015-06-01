@@ -1,4 +1,4 @@
-FROM dckr/docker-backup
+FROM backi/docker-backup
 MAINTAINER Johannes 'fish' Ziemke <fish@docker.com>
 
 RUN apt-get update && apt-get -y -q install python-setuptools python-dateutil python-magic
